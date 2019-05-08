@@ -73,10 +73,16 @@ class _PeriodicTablePageState extends State<PeriodicTablePage> {
 
   @override
   void initState() {
+
     _checkInternet();
     super.initState();
   }
 
+  @override
+  void dispose(){
+    items.clear();
+    super.dispose();
+  }
   Widget _buildPage(MainModel model, List<dynamic> resposeveDes) {
     items = model.allItems['data'];
 

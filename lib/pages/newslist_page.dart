@@ -42,9 +42,21 @@ class _NewsListPageState extends State<NewsListPage> {
     return myImageLogo;
   }
 
+  /*double _getListValue(String value){
+    Locale mylocale = Localizations.localeOf(context);
+    String newsType = value;
+    var res = newsType.contains(new RegExp(r'[أ-ى]'));
+    double minFontSize = 0.0;
+    if(res && !mylocale.languageCode.contains("ar")){
+      minFontSize = 5.0;
+    }
+    return minFontSize;
+  }*/
+
   Widget _buildAllNews(BuildContext cont, List<LatestNews> allLatestNews,
       List<dynamic> resposeveDes, MainModel model) {
     Locale mylocale = Localizations.localeOf(context);
+
     return ListView.builder(
         itemCount: allLatestNews.length,
         itemBuilder: (BuildContext cont, int index) {

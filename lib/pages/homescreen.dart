@@ -22,6 +22,20 @@ class HomeScreen extends StatelessWidget {
         quarterTurns: 10,
       );
     }
+
+    String title = 'الدورى الرياضى';
+    var res = title.contains(new RegExp(r'[أ-ى]'));
+    double minFontSizeTitle = 0.0;
+    if(res && !mylocale.languageCode.contains("ar")){
+      minFontSizeTitle = 5.0;
+    }
+
+    String content = 'من الملاعب السعودية إلى منصة التتويج بكأس العالم..';
+    var res2 = content.contains(new RegExp(r'[أ-ى]'));
+    double minFontSizeContent = 0.0;
+    if(res2 && !mylocale.languageCode.contains("ar")){
+      minFontSizeContent = 5.0;
+    }
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: <Widget>[
@@ -75,21 +89,36 @@ class HomeScreen extends StatelessWidget {
           ),
         ),
         Text(
-          'الدورى الرياضى',
-          style: TextStyle(fontSize: resposeveDes[14]),
+          title,
+          style: TextStyle(fontSize: resposeveDes[14] - minFontSizeTitle),
         ),
         SizedBox(
           height: resposeveDes[93],
         ),
-        Text('من الملاعب السعودية إلى منصة التتويج بكأس العالم..',
+        Text(content,
             textAlign: TextAlign.start,
             style: TextStyle(
-                fontWeight: FontWeight.bold, fontSize: resposeveDes[15]))
+                fontWeight: FontWeight.bold, fontSize: resposeveDes[15] - minFontSizeContent))
       ],
     );
   }
 
-  Widget _matchesRow(List<dynamic> resposeveDes) {
+  Widget _matchesRow(BuildContext cont,List<dynamic> resposeveDes) {
+    Locale mylocale = Localizations.localeOf(cont);
+    String teamName = 'الأهلى';
+    var res = teamName.contains(new RegExp(r'[أ-ى]'));
+    double minFontSize = 0.0;
+    if(res && !mylocale.languageCode.contains("ar")){
+      minFontSize = 5.0;
+    }
+
+
+    String datee = 'الخميس 15 يوليو';
+    var res2 = datee.contains(new RegExp(r'[أ-ى]'));
+    double minFontSizeDate = 0.0;
+    if(res2 && !mylocale.languageCode.contains("ar")){
+      minFontSizeDate = 5.0;
+    }
     return Row(
       children: <Widget>[
         Flexible(
@@ -108,11 +137,11 @@ class HomeScreen extends StatelessWidget {
                     flex: 1,
                     fit: FlexFit.tight,
                     child: Text(
-                      'الأهلى',
+                      teamName,
                       textAlign: TextAlign.start,
                       style: TextStyle(
                           fontWeight: FontWeight.bold,
-                          fontSize: resposeveDes[20]),
+                          fontSize: resposeveDes[20] - minFontSize),
                     ))
               ],
             )),
@@ -127,9 +156,9 @@ class HomeScreen extends StatelessWidget {
                   style: TextStyle(
                       fontSize: resposeveDes[102], fontWeight: FontWeight.bold),
                 ),
-                Text('الخميس 15 يوليو',
+                Text(datee,
                     style: TextStyle(
-                      fontSize: resposeveDes[103],
+                      fontSize: resposeveDes[103] - minFontSizeDate,
                     ),
                     textAlign: TextAlign.center)
               ],
@@ -142,11 +171,11 @@ class HomeScreen extends StatelessWidget {
                 Flexible(
                     flex: 1,
                     fit: FlexFit.tight,
-                    child: Text('الأهلى',
+                    child: Text(teamName,
                         textAlign: TextAlign.end,
                         style: TextStyle(
                             fontWeight: FontWeight.bold,
-                            fontSize: resposeveDes[20]))),
+                            fontSize: resposeveDes[20] - minFontSize))),
                 Flexible(
                     flex: 1,
                     fit: FlexFit.tight,
@@ -203,9 +232,9 @@ class HomeScreen extends StatelessWidget {
             margin: EdgeInsets.symmetric(vertical: resposeveDes[19]),
             child: Column(
               children: <Widget>[
-                _matchesRow(resposeveDes),
-                _matchesRow(resposeveDes),
-                _matchesRow(resposeveDes),
+                _matchesRow(context, resposeveDes),
+                _matchesRow(context, resposeveDes),
+                _matchesRow(context, resposeveDes),
               ],
             ),
           )
@@ -214,7 +243,28 @@ class HomeScreen extends StatelessWidget {
     );
   }
 
-  Widget _buildTweets(List<dynamic> resposeveDes) {
+  Widget _buildTweets(BuildContext cont,List<dynamic> resposeveDes) {
+    Locale mylocale = Localizations.localeOf(cont);
+    String title = 'الدورى الرياضى';
+    var res = title.contains(new RegExp(r'[أ-ى]'));
+    double minFontSizeTitle = 0.0;
+    if(res && !mylocale.languageCode.contains("ar")){
+      minFontSizeTitle = 5.0;
+    }
+
+    String account = '@account';
+    var res2 = account.contains(new RegExp(r'[أ-ى]'));
+    double minFontSizeAccount = 0.0;
+    if(res2 && !mylocale.languageCode.contains("ar")){
+      minFontSizeAccount = 5.0;
+    }
+
+    String content = 'عندما يريد العالم أن يتكلم فهو يتحدث بلغة يونيكود. تسجل الأن لحضور المؤتمر الدولى العاشر ليويكود (Unicode Conference). الذى سيعقد فى 10-12 اّذار 1997 بمدينة ماينتس ألمانيا.';
+    var res3 = content.contains(new RegExp(r'[أ-ى]'));
+    double minFontSizeContent = 0.0;
+    if(res3 && !mylocale.languageCode.contains("ar")){
+      minFontSizeContent = 5.0;
+    }
     return Container(
       margin: EdgeInsets.only(top: resposeveDes[25]),
       child: Column(
@@ -236,15 +286,15 @@ class HomeScreen extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: <Widget>[
                       Text(
-                        'الدورى الرياضى',
+                        title,
                         textAlign: TextAlign.start,
                         style: TextStyle(
-                            fontSize: resposeveDes[26],
+                            fontSize: resposeveDes[26] - minFontSizeTitle,
                             fontWeight: FontWeight.bold),
                       ),
                       Text(
-                        '@account',
-                        style: TextStyle(fontSize: resposeveDes[27]),
+                        account,
+                        style: TextStyle(fontSize: resposeveDes[27] - minFontSizeAccount),
                       )
                     ],
                   ))
@@ -261,9 +311,9 @@ class HomeScreen extends StatelessWidget {
                   flex: 1,
                   fit: FlexFit.tight,*/
             child: Text(
-              'عندما يريد العالم أن يتكلم فهو يتحدث بلغة يونيكود. تسجل الأن لحضور المؤتمر الدولى العاشر ليويكود (Unicode Conference). الذى سيعقد فى 10-12 اّذار 1997 بمدينة ماينتس ألمانيا.',
+              content,
               textAlign: TextAlign.start,
-              style: TextStyle(fontSize: resposeveDes[31]),
+              style: TextStyle(fontSize: resposeveDes[31] - minFontSizeContent),
             )
                 //,)
                 ,
@@ -318,8 +368,8 @@ class HomeScreen extends StatelessWidget {
             margin: EdgeInsets.symmetric(vertical: resposeveDes[24]),
             child: Column(
               children: <Widget>[
-                _buildTweets(resposeveDes),
-                _buildTweets(resposeveDes)
+                _buildTweets(context, resposeveDes),
+                _buildTweets(context, resposeveDes)
               ],
             ),
           )
@@ -347,6 +397,12 @@ class HomeScreen extends StatelessWidget {
               left: BorderSide(width: resposeveDes[34], color: Colors.black12)),
           borderRadius: BorderRadius.circular(resposeveDes[35]));
     }
+
+    var res = teamName.contains(new RegExp(r'[أ-ى]'));
+    double minFontSize = 0.0;
+    if(res && !mylocale.languageCode.contains("ar")){
+      minFontSize = 5.0;
+    }
     return Flexible(
         fit: FlexFit.tight,
         flex: 3,
@@ -372,7 +428,7 @@ class HomeScreen extends StatelessWidget {
             Text(
               teamName,
               style: TextStyle(
-                  fontSize: resposeveDes[41], fontWeight: FontWeight.bold),
+                  fontSize: resposeveDes[41] - minFontSize, fontWeight: FontWeight.bold),
             ),
             SizedBox(
               height: resposeveDes[42],
