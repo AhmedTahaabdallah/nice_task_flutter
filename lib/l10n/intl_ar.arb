@@ -1,0 +1,205 @@
+{
+  "@@locale" :   "ar" ,
+  "@@last_modified": "2019-05-05T20:06:29.207245",
+  "language": "English",
+      "@homeTab": {
+        "type": "text",
+        "placeholders": {}
+      },
+  "appTitle": "تاسك انو سوفت",
+  "@appTitle": {
+    "description": "The application title",
+    "type": "text",
+    "placeholders": {}
+  },
+  "homeTab": "الرئيسية",
+  "@homeTab": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "periodicTableTab": "جدول الدورى",
+  "@periodicTableTab": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "newsListTab": "المركز الاعلامى",
+  "@newsListTab": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "fullStatsTab": "احصائيات كاملة",
+  "@fullStatsTab": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "moreTab": "المزيد",
+  "@moreTab": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "latestNewsArea": "اّخر الأخبار",
+  "@latestNewsArea": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "moreNewsArea": "المزيد",
+  "@moreNewsArea": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "upcomingMatchesArea": "المباريات القادمة",
+  "@upcomingMatchesArea": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "moreUpcomingMatchesArea": "المزيد",
+  "@moreUpcomingMatchesArea": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "latestTweetsArea": "اّخر التغريدات",
+  "@latestTweetsArea": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "moreLatestTweetsArea": "المزيد",
+  "@moreLatestTweetsArea": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "expectWinner": "توقع من هو الفائز",
+  "@expectWinner": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "videosArea": "الفيديوهات",
+  "@videosArea": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "sponsorsArea": "الرعاة",
+  "@sponsorsArea": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "ptNoData": "لا يوجد بيانات",
+  "@ptNoData": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "ptYourLastName": "اسم العائلة هو:",
+  "@ptYourLastName": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "ptYourId": "رقمك :",
+  "@ptYourId": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "ptAlertDialogTitle": "حدث خطأ ما",
+  "@ptAlertDialogTitle": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "ptAlertDialogContent": "لا يمكن إحضار البيانات ، يرجى المحاولة مرة أخرى لاحقًا.",
+  "@ptAlertDialogContent": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "ptAlertDialogOkay": "تمام",
+  "@ptAlertDialogOkay": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "ptAlertDialogTitleNoInternet": "حدث خطأ ما",
+  "@ptAlertDialogTitleNoInternet": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "ptAlertDialogContentNoInternet": "لا يوجد اتصال بالإنترنت.",
+  "@ptAlertDialogContentNoInternet": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "ptAlertDialogOkayNoInternet": "تمام",
+  "@ptAlertDialogOkayNoInternet": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "noNewsFound": "لم يتم العثور على أخبار",
+  "@noNewsFound": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "newsListTabView": "الأخبار",
+  "@newsListTabView": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "imagesListTabView": "الصور",
+  "@imagesListTabView": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "videosListTabView": "الفيديوهات",
+  "@videosListTabView": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "noImagesListTabView": "لا يوجد صور",
+  "@noImagesListTabView": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "noVideosListTabView": "لا توجد فيديوهات",
+  "@noVideosListTabView": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "noStatisticsFound": "لم يتم العثور على إحصاءات",
+  "@noStatisticsFound": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "directoryOfClubs": "دليل النوادى",
+  "@directoryOfClubs": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "directoryOfStadiums": "دليل الملاعب",
+  "@directoryOfStadiums": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "whoAreWe": "من نحن",
+  "@whoAreWe": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "rulesAndRegulations": "الأنظمة واللوائح",
+  "@rulesAndRegulations": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "committees": "اللجان",
+  "@committees": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "callUs": "اتصل بنا",
+  "@callUs": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "shareTheApp": "شارك التطبيق",
+  "@shareTheApp": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "subscribeToTheNewsletter": "الاشتراك بالنشرة الاخبارية",
+  "@subscribeToTheNewsletter": {
+    "type": "text",
+    "placeholders": {}
+  }
+}

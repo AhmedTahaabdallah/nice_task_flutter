@@ -1,0 +1,205 @@
+{
+  "@@locale" :   "en" ,
+  "@@last_modified": "2019-05-05T20:06:29.207245",
+  "language": "عربي",
+    "@homeTab": {
+      "type": "text",
+      "placeholders": {}
+    },
+  "appTitle": "Innosoft Task",
+  "@appTitle": {
+    "description": "The application title",
+    "type": "text",
+    "placeholders": {}
+  },
+  "homeTab": "Home",
+  "@homeTab": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "periodicTableTab": "Periodic Table",
+  "@periodicTableTab": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "newsListTab": "News list",
+  "@newsListTab": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "fullStatsTab": "Full stats",
+  "@fullStatsTab": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "moreTab": "More",
+  "@moreTab": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "latestNewsArea": "Latest News",
+  "@latestNewsArea": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "moreNewsArea": "More",
+  "@moreNewsArea": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "upcomingMatchesArea": "Upcoming Matches",
+  "@upcomingMatchesArea": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "moreUpcomingMatchesArea": "More",
+  "@moreUpcomingMatchesArea": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "latestTweetsArea": "Latest Tweets",
+  "@latestTweetsArea": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "moreLatestTweetsArea": "More",
+  "@moreLatestTweetsArea": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "expectWinner": "Expect who is the winner",
+  "@expectWinner": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "videosArea": "Videos",
+  "@videosArea": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "sponsorsArea": "Sponsors",
+  "@sponsorsArea": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "ptNoData": "no data",
+  "@ptNoData": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "ptYourLastName": "Your Last Name Is :",
+  "@ptYourLastName": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "ptYourId": "And Your Id Is :",
+  "@ptYourId": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "ptAlertDialogTitle": "Someting went wrong",
+  "@ptAlertDialogTitle": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "ptAlertDialogContent": "Can Not Fettch Data , Please Try again later.",
+  "@ptAlertDialogContent": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "ptAlertDialogOkay": "Ok",
+  "@ptAlertDialogOkay": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "ptAlertDialogTitleNoInternet": "Someting went wrong",
+  "@ptAlertDialogTitleNoInternet": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "ptAlertDialogContentNoInternet": "There is no Internet connection.",
+  "@ptAlertDialogContentNoInternet": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "ptAlertDialogOkayNoInternet": "Ok",
+  "@ptAlertDialogOkayNoInternet": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "noNewsFound": "No News Found",
+  "@noNewsFound": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "newsListTabView": "News",
+  "@newsListTabView": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "imagesListTabView": "Images",
+  "@imagesListTabView": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "videosListTabView": "Videos",
+  "@videosListTabView": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "noImagesListTabView": "No Images",
+  "@noImagesListTabView": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "noVideosListTabView": "No Videos",
+  "@noVideosListTabView": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "noStatisticsFound": "No statistics found",
+  "@noStatisticsFound": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "directoryOfClubs": "Directory of Clubs",
+  "@directoryOfClubs": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "directoryOfStadiums": "Directory of stadiums",
+  "@directoryOfStadiums": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "whoAreWe": "Who are we",
+  "@whoAreWe": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "rulesAndRegulations": "Rules and Regulations",
+  "@rulesAndRegulations": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "committees": "Committees",
+  "@committees": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "callUs": "Call us",
+  "@callUs": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "shareTheApp": "Share the app",
+  "@shareTheApp": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "subscribeToTheNewsletter": "Subscribe to the newsletter",
+  "@subscribeToTheNewsletter": {
+    "type": "text",
+    "placeholders": {}
+  }
+}
