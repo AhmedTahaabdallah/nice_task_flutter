@@ -55,15 +55,15 @@ class _PeriodicTablePageState extends State<PeriodicTablePage> {
             List<dynamic> myRespon = widget.myResponFunction(context);
             return AlertDialog(
               title: Text(
-                Translations.of(context).ptAlertDialogTitle,
+                Translations.of(context).ptAlertDialogTitleNoInternet ,
                 style: TextStyle(fontSize: myRespon[76]),
               ),
-              content: Text(Translations.of(context).ptAlertDialogContent,
+              content: Text(Translations.of(context).ptAlertDialogContentNoInternet,
                   style: TextStyle(fontSize: myRespon[77])),
               actions: <Widget>[
                 FlatButton(
                     onPressed: () => Navigator.of(context).pop(),
-                    child: Text(Translations.of(context).ptAlertDialogOkay,
+                    child: Text(Translationis.of(context).ptAlertDialogOkayNoInternet,
                         style: TextStyle(fontSize: myRespon[78])))
               ],
             );
